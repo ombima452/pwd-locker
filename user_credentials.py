@@ -4,14 +4,14 @@ class User:
     """
     creat pwd locker accounts and save 
     """
-    # users=[]
-    # def __init__(self,firstname,lastname,password):
-    #     """
-    #     function to define properties for user object
-    #     """
-    #     self.firstname=firstname
-    #     self.lastname=lastname
-    #     self.password=password
+    users=[]
+    def __init__(self,firstname,lastname,password):
+        """
+        function to define properties for user object
+        """
+        self.firstname=firstname
+        self.lastname=lastname
+        self.password=password
         
         
 #     def save_user(self):
