@@ -21,10 +21,10 @@ class User:
         User.users.append(self)
         
         
-# class Credential:
-#     """
-#     create creadentials account and save also generate passwords
-#     """
+class Credential:
+    """
+    create creadentials account and save also generate passwords
+    """
 #     credentials=[]
 #     #something 
 #     def confirm_user(self,firstname,lastname,password): #cls meaning
