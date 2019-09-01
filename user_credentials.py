@@ -39,15 +39,15 @@ class Credential:
         return current_user
     
     
-#     def __init__(self,username,sitename,accountname,password):
+    def __init__(self,username,sitename,accountname,password):
         
-#         """
-#         define properties for user object
-#         """
-#         self.username=username
-#         self.sitename=sitename
-#         self.accountname=accountname
-#         self.password=password
+        """
+        define properties for user object
+        """
+        self.username=username
+        self.sitename=sitename
+        self.accountname=accountname
+        self.password=password
         
 #     def save_credentials(self):
 #         """
