@@ -49,12 +49,12 @@ class Credential:
         self.accountname=accountname
         self.password=password
         
-#     def save_credentials(self):
-#         """
-#         function to save user information 
-#         """ 
-#         #credentials=[]
-#         Credential.credentials.append(self)   
+    def save_credentials(self):
+        """
+        function to save user information 
+        """ 
+        #credentials=[]
+        Credential.credentials.append(self)   
      
      
 #     def generate_password(self,size=8): 
