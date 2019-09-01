@@ -57,21 +57,21 @@ class Credential:
         Credential.credentials.append(self)   
      
      
-#     def generate_password(self,size=8): 
-#         """
-#         function to generete password
-#         """
-#          #write function to genereate password
+   # def generate_password(self,size=8): 
+        """
+        function to generete password
+        """
+         #write function to genereate password
      
-#     def show_credentials(self,username): #cls meaning
-#         """
-#         function to show available user credentials 
-#         """
-#         credentials_saved=[]
-#         for credential in self.credentials:
-#             if credential.username==username:
-#                 credentials_saved.append(credential)
-#         return credentials_saved
+    def show_credentials(self,username): #cls meaning
+        """
+        function to show available user credentials 
+        """
+        credentials_saved=[]
+        for credential in self.credentials:
+            if credential.username==username:
+                credentials_saved.append(credential)
+        return credentials_saved
     
 #     def delete(self,sitename):       
 #        """
