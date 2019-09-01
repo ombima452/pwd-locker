@@ -25,18 +25,18 @@ class Credential:
     """
     create creadentials account and save also generate passwords
     """
-#     credentials=[]
-#     #something 
-#     def confirm_user(self,firstname,lastname,password): #cls meaning
-#         """
-#        function to confirm wheather names and password entered match
-#         """
-#         current_user=""
-#         for user in User.users:
-#             if (user.firstname==firstname,user.lastname==lastname and user.password==password):
-#                 current_user=user.firstname+user.lastname
+    credentials=[]
+    #something 
+    def confirm_user(self,firstname,lastname,password): #cls meaning
+        """
+       function to confirm wheather names and password entered match
+        """
+        current_user=""
+        for user in User.users:
+            if (user.firstname==firstname,user.lastname==lastname and user.password==password):
+                current_user=user.firstname+user.lastname
                 
-#         return current_user
+        return current_user
     
     
 #     def __init__(self,username,sitename,accountname,password):
