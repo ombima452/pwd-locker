@@ -53,7 +53,6 @@ class Credential:
         """
         function to save user information 
         """ 
-        #credentials=[]
         Credential.credentials.append(self)   
      
      
