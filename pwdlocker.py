@@ -75,26 +75,26 @@ def main():
 			save_user(create_user(first_name,last_name,password))
 			print(" ")
 			print(f'New Account Created for: {first_name} {last_name} using password: {password}')
-# 		elif short_code == 'li':
-# 			print("-"*60)
-# 			print(' ')
-# 			print('To login, enter your account details:')
-# 			user_name = input('Enter your first name - ').strip()
-# 			password = str(input('Enter your password - '))
-# 			user_exists = confirm_user(user_name,password)
-# 			if user_exists == user_name:
-# 				print(" ")
-# 				print(f'Welcome {user_name}. Please choose an option to continue.')
-# 				print(' ')
-# 				while True:
-# 					print("-"*60)
-# 					print('Navigation codes: \n cc-Create a Credential \n dc-Display Credentials \n copy-Copy Password \n ex-Exit')
-# 					short_code = input('Enter a choice: ').lower().strip()
-# 					print("-"*60)
-# 					if short_code == 'ex':
-# 						print(" ")
-# 						print(f'Goodbye {user_name}')
-# 						break
+		elif short_code == 'li':
+			print("-"*60)
+			print(' ')
+			print('To login, enter your account details:')
+			user_name = input('Enter your first name - ').strip()
+			password = str(input('Enter your password - '))
+			user_exists = confirm_user(user_name,password)
+			if user_exists == user_name:
+				print(" ")
+				print(f'Welcome {user_name}. Please choose an option to continue.')
+				print(' ')
+				while True:
+					print("-"*60)
+					print('Navigation codes: \n cc-Create a Credential \n dc-Display Credentials \n copy-Copy Password \n ex-Exit')
+					short_code = input('Enter a choice: ').lower().strip()
+					print("-"*60)
+					if short_code == 'ex':
+						print(" ")
+						print(f'Goodbye {user_name}')
+						break
 # 					elif short_code == 'cc':
 # 						print(' ')
 # 						print('Enter your credential details:')
