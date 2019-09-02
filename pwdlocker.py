@@ -48,11 +48,11 @@ def display_credentials(user_name):
 	'''
 	return Credential.show_credentials(user_name)
 	
-# def copy_credential(site_name):
-# 	'''
-# 	Function to copy a credentials details to the clipboard
-# 	'''
-# 	return Credential.copy_credentials(site_name)
+def copy_credential(site_name):
+	'''
+	Function to copy a credentials details to the clipboard
+	'''
+	return Credential.copy_credentials(site_name)
 
 # def main():
 # 	print(' ')
