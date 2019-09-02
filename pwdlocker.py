@@ -22,12 +22,12 @@ def confirm_user(firstname,password):
 	confirm_user = Credential.confirm_user(firstname,password)
 	return confirm_user
 
-# def generate_password():
-# 	'''
-# 	Function to generate a password automatically
-# 	'''
-# 	gen_pass =Credential.generate_password()
-# 	return gen_pass
+def generate_password():
+	'''
+	generate a password automatically
+	'''
+	gen_pass =Credential.generate_password()
+	return gen_pass
 
 # def create_credential(username,sitename,accountname,password):
 # 	'''
