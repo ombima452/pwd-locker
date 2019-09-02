@@ -100,27 +100,27 @@ def main():
 						print('Enter your credential details:')
 						site_name = input('Enter the site\'s name- ').strip()
 						account_name = input('Enter your account\'s name - ').strip()
-# 						while True:
-# 							print(' ')
-# 							print("-"*60)
-# 							print('Please choose an option for entering a password: \n ep-enter existing password \n gp-generate a password \n ex-exit')
-# 							psw_choice = input('Enter an option: ').lower().strip()
-# 							print("-"*60)
-# 							if psw_choice == 'ep':
-# 								print(" ")
-# 								password = input('Enter your password: ').strip()
-# 								break
-# 							elif psw_choice == 'gp':
-# 								password = generate_password()
-# 								break
-# 							elif psw_choice == 'ex':
-# 								break
-# 							else:
-# 								print('Oops! Wrong option entered. Try again.')
-# 						save_credential(create_credential(user_name,site_name,account_name,password))
-# 						print(' ')
-# 						print(f'Credential Created: Site Name: {site_name} - Account Name: {account_name} - Password: {password}')
-# 						print(' ')
+						while True:
+							print(' ')
+							print("-"*60)
+							print('Please choose an option for entering a password: \n ep-enter existing password \n gp-generate a password \n ex-exit')
+							psw_choice = input('Enter an option: ').lower().strip()
+							print("-"*60)
+							if psw_choice == 'ep':
+								print(" ")
+								password = input('Enter your password: ').strip()
+								break
+							elif psw_choice == 'gp':
+								password = generate_password()
+								break
+							elif psw_choice == 'ex':
+								break
+							else:
+								print('Oops! Wrong option entered. Try again.')
+						save_credential(create_credential(user_name,site_name,account_name,password))
+						print(' ')
+						print(f'Credential Created: Site Name: {site_name} - Account Name: {account_name} - Password: {password}')
+						print(' ')
 # 					elif short_code == 'dc':
 # 						print(' ')
 # 						if show_credentials(user_name):
