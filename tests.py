@@ -58,14 +58,14 @@ class TestCredentials (unittest.TestCase):
       """ 
       self.new_credential=Credential("Christine","Facebook","chrisombima","tyna452") 
       
-#     def test__init__(self):
-#         """
-#         test to check if credential were created correctly
-#         """      
-#         self.assertEqual(self.new_credential.username,"Christine")
-#         self.assertEqual(self.new_credential.sitename,"Facebook")
-#         self.assertEqual(self.new_credential.accountname,"chrisombima")
-#         self.assertEqual(self.new_credential.password,"tyna452")
+    def test__init__(self):
+        """
+        test to check if credential were created correctly
+        """      
+        self.assertEqual(self.new_credential.username,"Christine")
+        self.assertEqual(self.new_credential.sitename,"Facebook")
+        self.assertEqual(self.new_credential.accountname,"chrisombima")
+        self.assertEqual(self.new_credential.password,"tyna452")
         
 #     def test_save_credentials(self):
 #         """
