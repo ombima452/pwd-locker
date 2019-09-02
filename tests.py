@@ -77,21 +77,21 @@ class TestCredentials (unittest.TestCase):
         self.assertEqual(len(Credential.credentials),4)
         
     
-#     def test_copy_credential(self):
-#         """
-#         test to confirm credential method copies correctly
-#         """
-#         self.new_credential.save_credentials()
-#         twitter=Credential("alex","Twitter","nad","nad254")
-#         twitter.save_credentials()
-#         find_credential=None
-#         for credential in Credential.credentials:
-#             find_credential=Credential.find_site_by_name(credential.sitename)
-#             return pyperclip.copy(find_credential.password)
-#         Credential.copy_credentials(self.new_credential.sitename)
-#         self.assertEqual("tyna452",pyperclip.paste())
-#         print(pyperclip.paste())
+    def test_copy_credential(self):
+        """
+        test to confirm credential method copies correctly
+        """
+        self.new_credential.save_credentials()
+        twitter=Credential("alex","Twitter","nad","nad254")
+        twitter.save_credentials()
+        find_credential=None
+        for credential in Credential.credentials:
+            find_credential=Credential.find_site_by_name(credential.sitename)
+            return pyperclip.copy(find_credential.password)
+        Credential.copy_credentials(self.new_credential.sitename)
+        self.assertEqual("tyna452",pyperclip.paste())
+        print(pyperclip.paste())
         
 
-# if __name__ == '__main__':
-# 	unittest.main()
+if __name__ == '__main__':
+	unittest.main()
