@@ -15,12 +15,12 @@ def save_user(user):
 	User.save_user(user)
 
 
-# def confirm_user(firstname,password):
-# 	'''
-# 	Function that verifies the existance of the user before creating credentials
-# 	'''
-# 	confirm_user = Credential.confirm_user(firstname,password)
-# 	return confirm_user
+def confirm_user(firstname,password):
+	'''
+	verifies the user before creating credentials
+	'''
+	confirm_user = Credential.confirm_user(firstname,password)
+	return confirm_user
 
 # def generate_password():
 # 	'''
