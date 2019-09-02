@@ -67,14 +67,14 @@ class TestCredentials (unittest.TestCase):
         self.assertEqual(self.new_credential.accountname,"chrisombima")
         self.assertEqual(self.new_credential.password,"tyna452")
         
-#     def test_save_credentials(self):
-#         """
-#         test to check if new credentials info has been saved
-#         """ 
-#         self.new_credential.save_credentials()
-#         twitter= Credential("alex","Twitter","nad","nad452") 
-#         twitter.save_credentials()
-#         self.assertEqual(len(Credential.credentials),4)
+    def test_save_credentials(self):
+        """
+        test to check if new credentials info has been saved
+        """ 
+        self.new_credential.save_credentials()
+        twitter= Credential("alex","Twitter","nad","nad452") 
+        twitter.save_credentials()
+        self.assertEqual(len(Credential.credentials),4)
         
     
 #     def test_copy_credential(self):
