@@ -14,13 +14,13 @@ class TestUser(unittest.TestCase):
         
         self.newuser=User('Christine','Ombima','tyna452')
     
-#     def test__init__(self):
-#         """
-#         Test to check if account creation was done correctly
-#   		"""
-#         self.assertEqual(self.newuser.firstname,'Christine')
-#         self.assertEqual(self.newuser.lastname,'Ombima')
-#         self.assertEqual(self.newuser.password,'tyna452')
+    def test__init__(self):
+        """
+        Test to check if account creation was done correctly
+  		"""
+        self.assertEqual(self.newuser.firstname,'Christine')
+        self.assertEqual(self.newuser.lastname,'Ombima')
+        self.assertEqual(self.newuser.password,'tyna452')
   
 #     def test_save(self):
 #       """
