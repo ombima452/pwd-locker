@@ -50,7 +50,7 @@ class TestCredentials (unittest.TestCase):
               current_user=user.firstname
       return current_user
       
-      self.assertEqual(current_user,Credential.confirm_user(user2.firstname,user2.password)) 
+    #   self.assertEqual(current_user,Credential.confirm_user(user2.firstname,user2.password)) 
       
     def setUp(self):
       """
