@@ -31,26 +31,26 @@ class TestUser(unittest.TestCase):
       
       
       
-# class TestCredentials (unittest.TestCase):   
-#     """
-#     test class defining cases for the credentials class behaviuor
-#     """ 
-#     def confirm_user(self):
-#       """
-#       function to confirm 
-#       """
+class TestCredentials (unittest.TestCase):   
+    """
+    test class defining cases for the credentials class behaviuor
+    """ 
+    def confirm_user(self):
+      """
+      function to confirm 
+      """
         
-#       self.newuser = User("Christine","Ombima","tyna452")
-#       self.newuser.save_user()
-#       user2=User("alex","nad","nad452")
-#       user2.save_user()
+      self.newuser = User("Christine","Ombima","tyna452")
+      self.newuser.save_user()
+      user2=User("alex","nad","nad452")
+      user2.save_user()
       
-#       for user in User.users:
-#           if user.firstname==user2.firstname and user.password==user2.password:
-#               current_user=user.firstname
-#       return current_user
+      for user in User.users:
+          if user.firstname==user2.firstname and user.password==user2.password:
+              current_user=user.firstname
+      return current_user
       
-#     #   self.assertEqual(current_user,Credential.confirm_user(user2.firstname,user2.password)) 
+    #   self.assertEqual(current_user,Credential.confirm_user(user2.firstname,user2.password)) 
       
 #     def setUp(self):
 #       """
