@@ -10,7 +10,7 @@
 
 # DESCRIPTION
 
-Password Lock is a terminal-based python application. It is an amazing application that will help us manage our passwords and even generate new passwords for us. 
+Password Lock is a terminal-based python application. 
 You can store your existing account login details and also generate new login details with Password Lock.
 
 
