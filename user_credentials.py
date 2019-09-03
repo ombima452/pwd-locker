@@ -58,7 +58,7 @@ class Credential:
         Credential.credentials.append(self)   
      
      
-    def generate_password(self,size=8,char=string.ascii_uppercase+string.ascii_lowercase+string.digits):
+    def generate_password(size=8,char=string.ascii_uppercase+string.ascii_lowercase+string.digits):
         '''
         generate  password using letters and numbers.
         '''
